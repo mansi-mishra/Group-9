@@ -45,6 +45,11 @@ const Header = () => {
                 Blog
               </Link>
             </li>
+            <li className="btn text-danger fw-bold">
+              <Link className="text-warning  fw-bold" to="/music_player">
+                Music Player
+              </Link>
+            </li>
             {/* <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="/" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
             <ul className="dropdown-menu" aria-labelledby="dropdown05">
