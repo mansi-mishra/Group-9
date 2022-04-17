@@ -76,7 +76,7 @@ const Forecast = () => {
             value="metric"
             onChange={e => setUnit(e.target.value)}
           />
-          Celcius
+          Celsius
         </label>
         <button type="submit">Get Forecast</button>
       </form>

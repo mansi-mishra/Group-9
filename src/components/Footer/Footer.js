@@ -127,7 +127,7 @@ const Footer = () => {
         <div className="d-flex text-light justify-content-between py-4 my-4 border-top">
           <p>&copy; 2021 Company, Inc. All rights reserved.</p>
           <span>
-            <ul className="list-unstyled justify-content-center d-flex mb-0">
+            <ul className="list-un styled justify-content-center d-flex mb-0">
               <Link className="ms-3" to="">
                 <Facebook size="30" />
               </Link>

@@ -9,7 +9,7 @@ const Header = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          PROJECT2022
+          WEATHER FORECASTING APP
         </a>
         <button
           className="navbar-toggler"
@@ -48,6 +48,11 @@ const Header = () => {
             <li className="btn text-danger fw-bold">
               <Link className="text-warning  fw-bold" to="/music_player">
                 Music Player
+              </Link>
+            </li>
+            <li className="btn text-danger fw-bold">
+              <Link className="text-warning  fw-bold" to="/Suggestions">
+                Suggestions
               </Link>
             </li>
             {/* <li className="nav-item dropdown">

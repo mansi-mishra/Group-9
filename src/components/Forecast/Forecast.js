@@ -54,7 +54,7 @@ const Forecast = () => {
         <input
           type="text"
           placeholder="Enter City"
-          maxLength="50"
+          maxLength="40"
           value={city}
           onChange={e => setCity(e.target.value)}
         />
@@ -76,7 +76,7 @@ const Forecast = () => {
             value="metric"
             onChange={e => setUnit(e.target.value)}
           />
-          Calcium
+          Celsius
         </label>
         <button type="submit">Get Forecast</button>
       </form>

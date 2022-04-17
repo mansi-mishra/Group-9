@@ -47,7 +47,7 @@ const Team = () => {
                     width: "200px",
                     borderRadius: "100%",
                   }}
-                  filename={`${item.name}.jpg`}
+                  filename={`${item.name}.jpeg`}
                   alt="1"
                 />
                 <h3 className="m-2">{item.name}</h3>

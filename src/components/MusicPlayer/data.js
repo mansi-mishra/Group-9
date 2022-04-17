@@ -77,7 +77,7 @@ function chillHop() {
     },
     {
       name: "8",
-      cover: "m2",
+      cover: "m8",
       artist: "Artist",
       audio: m8,
       color: ["#CD221D", "#c94043"],
@@ -86,7 +86,7 @@ function chillHop() {
     },
     {
       name: "9",
-      cover: "m3",
+      cover: "m9",
       artist: "Artist",
       audio: m9,
       color: ["#118EA9", "#ab417f"],
@@ -95,7 +95,7 @@ function chillHop() {
     },
     {
       name: "10",
-      cover: "m1",
+      cover: "Baarish - Stebin Ben",
       artist: "Artist",
       audio: m10,
       color: ["#226011", "#c94043"],
