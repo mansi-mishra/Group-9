@@ -24,7 +24,7 @@ const Forecast = () => {
       method: "GET",
       headers: {
         "X-RapidAPI-Host": "community-open-weather-map.p.rapidapi.com",
-        "X-RapidAPI-Key": "9dee196e24msh907bd3260bd94efp1e79abnerf63216bfd",
+        "X-RapidAPI-Key": "f15e475c41msh72472007bc3b925p198431jsne1f2787ba6ca",
       },
     }
 
@@ -53,14 +53,17 @@ const Forecast = () => {
       <form onSubmit={getForecast}>
         <input
           type="text"
+          className="form-control"
           placeholder="Enter City"
-          maxLength="40"
+          maxLength="50"
           value={city}
           onChange={e => setCity(e.target.value)}
         />
+
         <label>
           <input
             type="radio"
+            className="form-check-input"
             name="units"
             checked={unit === "imperial"}
             value="imperial"
@@ -68,17 +71,22 @@ const Forecast = () => {
           />
           Fahrenheit
         </label>
+
         <label>
           <input
             type="radio"
+            className="form-check-input"
             name="units"
             checked={unit === "metric"}
             value="metric"
             onChange={e => setUnit(e.target.value)}
           />
-          Celsius
+          Celcius
         </label>
-        <button type="submit">Get Forecast</button>
+
+        <button type="submit" className="btn btn-primary">
+          Get Forecast
+        </button>
       </form>
       <Conditions responseObj={responseObj} />
     </div>
